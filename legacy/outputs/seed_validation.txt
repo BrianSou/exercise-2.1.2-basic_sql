@@ -1,0 +1,11 @@
+ORIGINAL DATABASE
+customer: 10
+account: 10
+complaint: 30
+service_request: 10
+complaint_status_history: 30
+review_request: 10
+review_decision: 10
+Foreign key errors: 0
+Wrong account owner: 0
+Result: PASS

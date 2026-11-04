@@ -1,0 +1,47 @@
+metric,group,value
+total_complaints,,120
+unresolved_backlog,,86
+distinct_customers,,69
+top_category,,Mortgage Servicing
+top_category_percentage,,25.83
+skipped_rows,,0
+closed_cases_without_valid_resolution_date,,0
+status_count,Closed,34
+status_count,Escalated,30
+status_count,In Review,32
+status_count,Open,24
+category_count,Mortgage Servicing,31
+category_count,Card or Transaction Dispute,25
+category_count,Service Quality,21
+category_count,Digital Banking,19
+category_count,Fees,15
+category_count,Account Access,9
+opened_month_count,2026-01,14
+opened_month_count,2026-02,8
+opened_month_count,2026-03,13
+opened_month_count,2026-04,13
+opened_month_count,2026-05,20
+opened_month_count,2026-06,15
+opened_month_count,2026-07,15
+opened_month_count,2026-08,22
+closed_cases_with_valid_dates,Account Access,5
+average_resolution_days,Account Access,16.20
+closed_cases_with_valid_dates,Card or Transaction Dispute,4
+average_resolution_days,Card or Transaction Dispute,11.25
+closed_cases_with_valid_dates,Digital Banking,4
+average_resolution_days,Digital Banking,8.25
+closed_cases_with_valid_dates,Fees,6
+average_resolution_days,Fees,10.33
+closed_cases_with_valid_dates,Mortgage Servicing,9
+average_resolution_days,Mortgage Servicing,9.44
+closed_cases_with_valid_dates,Service Quality,6
+average_resolution_days,Service Quality,6.17
+missing_values,complaint_id,0
+missing_values,customer_id,0
+missing_values,account_id,39
+missing_values,category,0
+missing_values,status,0
+missing_values,date_opened,0
+missing_values,date_closed,86
+missing_values,channel,0
+missing_values,priority,0

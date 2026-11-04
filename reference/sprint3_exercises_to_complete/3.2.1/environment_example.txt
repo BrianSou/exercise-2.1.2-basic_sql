@@ -1,0 +1,6 @@
+# PostgreSQL only. Set these as environment variables.
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=complaints_training
+DB_USER=training_user
+DB_PASSWORD=replace_me

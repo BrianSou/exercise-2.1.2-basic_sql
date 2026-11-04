@@ -1,0 +1,11 @@
+"fee_id","account_id","transaction_id","fee_type","amount","charged_at","reversed_flag"
+FEE001,ACC001,TXN001,Overdraft,35,"2025-01-01 08:01:00",0
+FEE002,ACC002,,Maintenance,10,"2025-01-03 00:00:00",0
+FEE003,ACC003,,Wire,20,"2025-01-04 00:00:00",0
+FEE004,ACC004,,Maintenance,10,"2025-01-07 00:00:00",0
+FEE005,ACC005,TXN005,Business Service,50,"2025-01-10 15:00:00",0
+FEE006,ACC006,TXN006,Card Replacement,15,"2025-01-11 11:30:00",0
+FEE007,ACC007,,Wire,25,"2025-01-12 14:00:00",0
+FEE008,ACC008,,Maintenance,10,"2025-01-13 00:00:00",0
+FEE009,ACC009,TXN009,Business Service,75,"2025-01-14 16:30:00",0
+FEE010,ACC010,,Maintenance,10,"2025-01-16 00:00:00",0

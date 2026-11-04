@@ -1,0 +1,46 @@
+AI FORWARD DEPLOYED ENGINEER
+Week 3 | Exercise 6
+Implement Structured Errors and Logging
+Time Required: 1 hour 45 minutes
+This exercise advances the Banking Complaint Resolution Assistant from a data foundation to a production-aware Python API.
+Scenario
+The Week 3 solution must remain aligned to the approved specification and the reviewed Week 2 data release.
+Learning Outcomes
+• Apply structured thinking before implementation.
+• Produce testable, reviewable artifacts.
+• Maintain traceability between requirements, implementation and evidence.
+Prerequisites and Inputs
+Exercise Requirements
+Complete the following steps in sequence. Do not skip a step unless the coach records an approved exception.
+Step 1 — Error contract (25 minutes)
+• Define code, message and correlation_id.
+• Map known errors.
+Required evidence: Error schema.
+Step 2 — Logging (35 minutes)
+• Log operation, outcome, duration and correlation ID.
+• Exclude sensitive narrative and secrets.
+Required evidence: Structured logs.
+Step 3 — Middleware (20 minutes)
+• Generate/propagate correlation ID.
+Required evidence: Middleware.
+Step 4 — Test failures (25 minutes)
+• Missing, invalid, unavailable DB and unexpected error.
+Required evidence: Failure matrix.
+Expected Deliverables
+1. error_handlers.py — Mapped errors.
+2. logging configuration — Structured safe logs.
+3. failure_matrix.csv — Response/log evidence.
+4. sample_logs.jsonl — Sanitized examples.
+Definition of Done
+• No stack trace in response.
+• Correlation ID links response and log.
+• Sensitive data absent.
+• Known errors stable.
+Submission Method
+• Create or update the named files in the project repository.
+• Use a feature branch and create a pull request to develop.
+• PR title: [Consultant name] Implement Structured Errors and Logging (Week 3).
+• Tag the coach; do not merge until review is complete.
+Dependency Handover
+Exercise 3.4.2 asserts these contracts in integration tests.
+Copyright © 2026 FDM Group. Internal training use only.

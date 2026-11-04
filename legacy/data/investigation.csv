@@ -1,0 +1,11 @@
+"investigation_id","complaint_id","analyst_id","started_at","completed_at","investigation_summary"
+INV001,CMP001,EMP001,"2025-01-02","2025-01-04",Overdraft fee verified
+INV002,CMP002,EMP002,"2025-01-06",,Reviewing account updates
+INV003,CMP003,EMP001,"2025-01-10",,Examining duplicate transaction
+INV004,CMP004,EMP006,"2025-01-12",,Technical team engaged
+INV005,CMP005,EMP007,"2025-01-16","2025-01-18",Fee reversal approved
+INV006,CMP006,EMP002,"2025-01-18",,Card system analysis
+INV007,CMP007,EMP001,"2025-01-21",,ATM records requested
+INV008,CMP008,EMP006,"2025-01-22",,Service quality assessment
+INV009,CMP009,EMP007,"2025-01-25",,Fraud analysis underway
+INV010,CMP010,EMP002,"2025-01-26",,Fee verification

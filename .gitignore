@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.building.db
+*.db-journal
+.pytest_cache/
+
+data/*.db
+*:Zone.Identifier

@@ -1,0 +1,16 @@
+digraph ERD {
+  graph [rankdir=LR, bgcolor="white", pad="0.35", nodesep="0.55", ranksep="1.1"];
+  node [shape=record, style="rounded,filled", fillcolor="#F6F8FA", color="#374151", fontname="Arial", fontsize=11];
+  edge [fontname="Arial", color="#475569", fontsize=9];
+  customer [label="{customer|PK customer_id|name, segment}"];
+  account [label="{account|PK account_id|FK customer_id}"];
+  complaint [label="{complaint|PK complaint_id|FK customer_id|FK account_id (optional)|status, received_at}"];
+  complaint_status_history [label="{complaint_status_history|PK history_id|FK complaint_id|new_status, changed_at}"];
+  service_request [label="{service_request|PK request_id|FK customer_id|FK account_id (optional)}"];
+  customer -> account [label="1 to many"];
+  customer -> complaint [label="1 to many"];
+  account -> complaint [label="0 or 1 account per complaint"];
+  complaint -> complaint_status_history [label="0 to many"];
+  customer -> service_request [label="0 to many"];
+  account -> service_request [label="0 or 1 account per request"];
+}
