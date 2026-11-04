@@ -1,0 +1,11 @@
+"request_id","customer_id","account_id","request_type","status","created_at","closed_at"
+SR001,CUS001,ACC001,Address Change,CLOSED,"2025-01-01","2025-01-02"
+SR002,CUS002,ACC002,Card Replacement,OPEN,"2025-01-03",
+SR003,CUS003,ACC003,Limit Increase,OPEN,"2025-01-04",
+SR004,CUS004,ACC004,Statement Request,CLOSED,"2025-01-05","2025-01-06"
+SR005,CUS005,ACC005,Business Support,OPEN,"2025-01-06",
+SR006,CUS006,ACC006,PIN Reset,CLOSED,"2025-01-07","2025-01-08"
+SR007,CUS007,ACC007,Account Update,OPEN,"2025-01-08",
+SR008,CUS008,ACC008,Cheque Book,OPEN,"2025-01-09",
+SR009,CUS009,ACC009,Wire Transfer Setup,OPEN,"2025-01-10",
+SR010,CUS010,ACC010,Interest Inquiry,CLOSED,"2025-01-11","2025-01-12"

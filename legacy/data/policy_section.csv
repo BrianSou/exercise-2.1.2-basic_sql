@@ -1,0 +1,11 @@
+"section_id","policy_id","section_title","section_text"
+SEC001,POL001,Complaint Intake,All complaints must be recorded.
+SEC002,POL002,Fee Assessment,Fees reviewed within 5 days.
+SEC003,POL003,Fraud Escalation,Escalate suspected fraud.
+SEC004,POL004,Response SLA,Respond within 2 business days.
+SEC005,POL005,Data Handling,Protect customer data.
+SEC006,POL006,Account Updates,Verify identity before changes.
+SEC007,POL007,AML Monitoring,Monitor suspicious activities.
+SEC008,POL008,Request Lifecycle,Track requests through closure.
+SEC009,POL009,Refund Approval,Manager approval required.
+SEC010,POL010,Audit Controls,Maintain audit records.

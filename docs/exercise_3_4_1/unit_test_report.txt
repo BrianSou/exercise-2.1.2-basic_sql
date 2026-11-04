@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.0.2, pluggy-1.6.0 -- /opt/pyvenv/bin/python
+cachedir: .pytest_cache
+metadata: {'Python': '3.13.5', 'Platform': 'Linux-6.18.57-x86_64-with-glibc2.41', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'anyio': '4.13.0', 'ddtrace': '4.4.0', 'Faker': '40.1.2', 'asyncio': '1.3.0', 'cov': '7.0.0', 'json-report': '1.5.0', 'metadata': '3.1.1'}, 'PLATFORM': 'linux/amd64', 'CI': 'true'}
+rootdir: /mnt/data/work335/banking-complaints-sqlalchemy
+plugins: anyio-4.13.0, ddtrace-4.4.0, Faker-40.1.2, asyncio-1.3.0, cov-7.0.0, json-report-1.5.0, metadata-3.1.1
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 30 items
+
+tests/unit/test_domain_rules.py::test_domain_allows_documented_transition[OPEN-IN_PROGRESS] PASSED [  3%]
+tests/unit/test_domain_rules.py::test_domain_allows_documented_transition[OPEN-UNDER_REVIEW] PASSED [  6%]
+tests/unit/test_domain_rules.py::test_domain_allows_documented_transition[OPEN-ESCALATED] PASSED [ 10%]
+tests/unit/test_domain_rules.py::test_domain_allows_documented_transition[IN_PROGRESS-CLOSED] PASSED [ 13%]
+tests/unit/test_domain_rules.py::test_domain_allows_documented_transition[UNDER_REVIEW-IN_PROGRESS] PASSED [ 16%]
+tests/unit/test_domain_rules.py::test_domain_allows_documented_transition[ESCALATED-CLOSED] PASSED [ 20%]
+tests/unit/test_domain_rules.py::test_domain_blocks_undocumented_transition[OPEN-CLOSED] PASSED [ 23%]
+tests/unit/test_domain_rules.py::test_domain_blocks_undocumented_transition[OPEN-OPEN] PASSED [ 26%]
+tests/unit/test_domain_rules.py::test_domain_blocks_undocumented_transition[CLOSED-OPEN] PASSED [ 30%]
+tests/unit/test_domain_rules.py::test_domain_blocks_undocumented_transition[CLOSED-CLOSED] PASSED [ 33%]
+tests/unit/test_domain_rules.py::test_complaint_rejects_invalid_fields[complaint_id-] PASSED [ 36%]
+tests/unit/test_domain_rules.py::test_complaint_rejects_invalid_fields[customer_id- ] PASSED [ 40%]
+tests/unit/test_domain_rules.py::test_complaint_rejects_invalid_fields[category-Made Up] PASSED [ 43%]
+tests/unit/test_domain_rules.py::test_complaint_rejects_invalid_fields[priority-Urgent] PASSED [ 46%]
+tests/unit/test_domain_rules.py::test_complaint_rejects_invalid_fields[received_at-2026-11-01] PASSED [ 50%]
+tests/unit/test_domain_rules.py::test_customer_model_requires_name PASSED [ 53%]
+tests/unit/test_domain_rules.py::test_account_model_requires_owner PASSED [ 56%]
+tests/unit/test_domain_rules.py::test_models_are_immutable PASSED        [ 60%]
+tests/unit/test_domain_rules.py::test_history_records_actor_and_timestamps PASSED [ 63%]
+tests/unit/test_domain_rules.py::test_history_cannot_claim_invalid_transition PASSED [ 66%]
+tests/unit/test_domain_rules.py::test_new_complaint_must_start_open PASSED [ 70%]
+tests/unit/test_domain_rules.py::test_in_review_is_not_an_escalation_indicator PASSED [ 73%]
+tests/unit/test_domain_rules.py::test_service_accepts_optional_or_owned_account[None] PASSED [ 76%]
+tests/unit/test_domain_rules.py::test_service_accepts_optional_or_owned_account[ACC001] PASSED [ 80%]
+tests/unit/test_domain_rules.py::test_service_blocks_missing_customer PASSED [ 83%]
+tests/unit/test_domain_rules.py::test_service_blocks_unowned_account[ACC404] PASSED [ 86%]
+tests/unit/test_domain_rules.py::test_service_blocks_unowned_account[ACC002] PASSED [ 90%]
+tests/unit/test_domain_rules.py::test_service_does_not_write_blocked_status_change PASSED [ 93%]
+tests/unit/test_domain_rules.py::test_service_escalation_is_separate_from_complaint_status PASSED [ 96%]
+tests/unit/test_domain_rules.py::test_service_records_valid_transition PASSED [100%]
+
+============================== 30 passed in 0.15s ==============================

@@ -1,0 +1,46 @@
+AI FORWARD DEPLOYED ENGINEER
+Week 3 | Exercise 9
+Perform Pull Request Code Review
+Time Required: 1 hour 15 minutes
+This exercise advances the Banking Complaint Resolution Assistant from a data foundation to a production-aware Python API.
+Scenario
+The Week 3 solution must remain aligned to the approved specification and the reviewed Week 2 data release.
+Learning Outcomes
+• Apply structured thinking before implementation.
+• Produce testable, reviewable artifacts.
+• Maintain traceability between requirements, implementation and evidence.
+Prerequisites and Inputs
+Exercise Requirements
+Complete the following steps in sequence. Do not skip a step unless the coach records an approved exception.
+Step 1 — Prepare PR (15 minutes)
+• Link spec sections and acceptance evidence.
+• Describe risks.
+Required evidence: PR.
+Step 2 — Review (30 minutes)
+• Review behavior, architecture, tests, security and maintainability.
+• Label blocking/non-blocking.
+Required evidence: Comments.
+Step 3 — Respond (20 minutes)
+• Fix or justify.
+• Rerun tests.
+Required evidence: Resolution trail.
+Step 4 — Merge gate (10 minutes)
+• Confirm approvals and evidence.
+Required evidence: Decision.
+Expected Deliverables
+1. PR evidence — Complete review trail.
+2. completed checklist — Review coverage.
+3. review_reflection.md — Learning.
+Definition of Done
+• Spec references present.
+• Blocking comments resolved.
+• Tests pass.
+• Reviewer understands code.
+Submission Method
+• Create or update the named files in the project repository.
+• Use a feature branch and create a pull request to develop.
+• PR title: [Consultant name] Perform Pull Request Code Review (Week 3).
+• Tag the coach; do not merge until review is complete.
+Dependency Handover
+Exercise 3.5.2 uses the merged release candidate.
+Copyright © 2026 FDM Group. Internal training use only.

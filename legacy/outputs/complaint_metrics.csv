@@ -1,0 +1,19 @@
+metric,group,value,as_of_date
+status_count,CLOSED,1,2026-11-02
+status_count,IN_PROGRESS,4,2026-11-02
+status_count,OPEN,19,2026-11-02
+status_count,UNDER_REVIEW,6,2026-11-02
+category_count,Card Issue,2,2026-11-02
+category_count,Customer Service,5,2026-11-02
+category_count,Fee Dispute,7,2026-11-02
+category_count,Fraud Claim,3,2026-11-02
+category_count,Online Banking,3,2026-11-02
+category_count,Service Delay,5,2026-11-02
+category_count,Transaction Error,5,2026-11-02
+received_month_count,2025-01,10,2026-11-02
+received_month_count,2025-02,20,2026-11-02
+total_complaints,,30,2026-11-02
+open_backlog,,29,2026-11-02
+distinct_customers,,10,2026-11-02
+escalated_unresolved,,1,2026-11-02
+avg_resolution_days,all categories,N/A: no reliable closure date,2026-11-02
