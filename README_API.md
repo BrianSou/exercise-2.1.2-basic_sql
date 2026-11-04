@@ -52,7 +52,7 @@ In `/docs`, use POST `/complaints` with:
 
 ```json
 {
-  "complaint_id": "CMP999",
+  "complaint_id": "CMP798",
   "customer_id": "CUS001",
   "account_id": "ACC001",
   "category": "Fee Dispute",
