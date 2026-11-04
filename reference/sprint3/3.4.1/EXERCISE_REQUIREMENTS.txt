@@ -1,0 +1,44 @@
+AI FORWARD DEPLOYED ENGINEER
+Week 3 | Exercise 7
+Create Unit Tests with pytest
+Time Required: 1 hour 45 minutes
+This exercise advances the Banking Complaint Resolution Assistant from a data foundation to a production-aware Python API.
+Scenario
+The Week 3 solution must remain aligned to the approved specification and the reviewed Week 2 data release.
+Learning Outcomes
+• Apply structured thinking before implementation.
+• Produce testable, reviewable artifacts.
+• Maintain traceability between requirements, implementation and evidence.
+Prerequisites and Inputs
+Exercise Requirements
+Complete the following steps in sequence. Do not skip a step unless the coach records an approved exception.
+Step 1 — Plan (20 minutes)
+• List happy, boundary and failure cases.
+Required evidence: Test plan.
+Step 2 — Fixtures (20 minutes)
+• Create reusable domain and fake repository fixtures.
+Required evidence: Fixtures.
+Step 3 — Tests (45 minutes)
+• Test transitions, validation, missing customer and escalation indicators.
+• Use parametrization.
+Required evidence: Unit suite.
+Step 4 — Review (20 minutes)
+• Run and remove brittle implementation assertions.
+Required evidence: Report.
+Expected Deliverables
+1. tests/unit — Unit tests.
+2. unit_test_report.txt — Results.
+3. untested_risks.md — Known gaps.
+Definition of Done
+• Tests deterministic.
+• Repository mocked/faked.
+• Critical rules covered.
+• Names describe behavior.
+Submission Method
+• Create or update the named files in the project repository.
+• Use a feature branch and create a pull request to develop.
+• PR title: [Consultant name] Create Unit Tests with pytest (Week 3).
+• Tag the coach; do not merge until review is complete.
+Dependency Handover
+Exercise 3.4.2 adds API/persistence integration tests.
+Copyright © 2026 FDM Group. Internal training use only.

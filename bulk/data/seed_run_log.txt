@@ -1,0 +1,14 @@
+1. Checking CSV files
+   customers: 100 rows checked
+   accounts: 150 rows checked
+   complaints: 120 rows checked
+   service_requests: 5 rows checked
+2. Connecting to database
+3. Reset requested. Dropping old tables
+4. Loading rows
+   customers: 100 inserted
+   accounts: 150 inserted
+   complaints: 120 inserted
+   service_requests: 5 inserted
+5. Checking counts and foreign keys
+6. Done. Integrity checks passed.

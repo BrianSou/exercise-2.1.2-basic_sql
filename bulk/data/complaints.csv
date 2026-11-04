@@ -1,0 +1,121 @@
+complaint_id,customer_id,account_id,category,status,date_opened,date_closed,channel,priority
+CP00001,C0015,A00121,Card or Transaction Dispute,Open,2026-04-28,,Phone,Medium
+CP00002,C0081,A00015,Mortgage Servicing,Escalated,2026-04-07,,Web,Medium
+CP00003,C0025,A00024,Mortgage Servicing,Closed,2026-02-21,2026-02-25,Email,High
+CP00004,C0082,,Card or Transaction Dispute,Closed,2026-03-26,2026-04-08,Web,Low
+CP00005,C0087,,Card or Transaction Dispute,In Review,2026-06-11,,Phone,Medium
+CP00006,C0005,A00025,Card or Transaction Dispute,Closed,2026-08-03,2026-08-22,Web,Low
+CP00007,C0016,A00149,Mortgage Servicing,Closed,2026-04-22,2026-04-25,Phone,High
+CP00008,C0027,A00119,Service Quality,In Review,2026-07-16,,Branch,Medium
+CP00009,C0080,A00005,Account Access,Closed,2026-01-04,2026-01-24,Web,Medium
+CP00010,C0043,A00038,Fees,Escalated,2026-02-18,,Email,Low
+CP00011,C0066,A00050,Account Access,Escalated,2026-03-27,,Phone,Medium
+CP00012,C0099,,Mortgage Servicing,Escalated,2026-05-18,,Phone,Medium
+CP00013,C0079,A00046,Mortgage Servicing,In Review,2026-05-09,,Phone,High
+CP00014,C0004,A00078,Card or Transaction Dispute,In Review,2026-06-10,,Email,High
+CP00015,C0054,A00142,Digital Banking,Escalated,2026-06-28,,Email,Low
+CP00016,C0058,A00134,Mortgage Servicing,In Review,2026-07-06,,Branch,Low
+CP00017,C0096,A00061,Fees,Escalated,2026-08-18,,Branch,High
+CP00018,C0047,A00095,Mortgage Servicing,Escalated,2026-03-03,,Web,Medium
+CP00019,C0005,A00025,Digital Banking,In Review,2026-04-14,,Email,High
+CP00020,C0076,,Service Quality,Open,2026-06-13,,Email,Low
+CP00021,C0019,A00117,Digital Banking,Closed,2026-05-16,2026-05-20,Phone,Medium
+CP00022,C0032,,Fees,Escalated,2026-05-26,,Phone,Medium
+CP00023,C0064,A00054,Mortgage Servicing,Open,2026-06-03,,Email,Medium
+CP00024,C0063,A00090,Mortgage Servicing,Closed,2026-08-16,2026-08-30,Web,High
+CP00025,C0043,A00038,Fees,Closed,2026-05-15,2026-05-29,Branch,High
+CP00026,C0079,A00140,Mortgage Servicing,Closed,2026-08-19,2026-09-01,Web,Low
+CP00027,C0016,A00149,Fees,Closed,2026-08-05,2026-08-13,Email,High
+CP00028,C0014,A00148,Card or Transaction Dispute,In Review,2026-05-15,,Web,High
+CP00029,C0086,A00042,Account Access,Closed,2026-04-05,2026-04-24,Email,High
+CP00030,C0016,,Card or Transaction Dispute,Open,2026-08-20,,Web,High
+CP00031,C0074,,Digital Banking,Open,2026-04-27,,Phone,High
+CP00032,C0039,,Card or Transaction Dispute,Escalated,2026-01-07,,Web,Medium
+CP00033,C0058,A00134,Fees,Closed,2026-07-28,2026-08-02,Branch,Low
+CP00034,C0059,A00103,Card or Transaction Dispute,Escalated,2026-08-19,,Email,Low
+CP00035,C0026,,Digital Banking,Open,2026-03-17,,Email,Low
+CP00036,C0023,A00122,Card or Transaction Dispute,In Review,2026-06-12,,Web,High
+CP00037,C0014,A00148,Service Quality,Escalated,2026-03-20,,Phone,Medium
+CP00038,C0090,,Fees,Closed,2026-08-29,2026-09-12,Phone,Low
+CP00039,C0040,A00073,Mortgage Servicing,In Review,2026-01-31,,Branch,Medium
+CP00040,C0048,A00101,Digital Banking,Open,2026-07-25,,Phone,High
+CP00041,C0029,A00063,Service Quality,In Review,2026-03-12,,Web,Medium
+CP00042,C0068,,Mortgage Servicing,Open,2026-01-19,,Branch,High
+CP00043,C0033,,Card or Transaction Dispute,Open,2026-04-19,,Phone,Low
+CP00044,C0036,,Card or Transaction Dispute,Open,2026-07-07,,Web,High
+CP00045,C0060,,Service Quality,Closed,2026-08-23,2026-08-24,Web,Low
+CP00046,C0009,A00147,Fees,Escalated,2026-05-23,,Branch,High
+CP00047,C0082,A00070,Fees,In Review,2026-06-25,,Email,Low
+CP00048,C0086,A00042,Digital Banking,Escalated,2026-04-23,,Email,High
+CP00049,C0029,,Mortgage Servicing,Closed,2026-08-07,2026-08-16,Web,High
+CP00050,C0058,A00134,Mortgage Servicing,In Review,2026-08-12,,Email,Medium
+CP00051,C0065,A00036,Fees,Escalated,2026-04-24,,Web,Low
+CP00052,C0073,A00096,Digital Banking,In Review,2026-06-13,,Email,Low
+CP00053,C0090,,Mortgage Servicing,Escalated,2026-03-22,,Email,Low
+CP00054,C0084,A00076,Card or Transaction Dispute,In Review,2026-07-30,,Email,High
+CP00055,C0085,A00092,Digital Banking,Closed,2026-08-01,2026-08-03,Phone,High
+CP00056,C0006,A00113,Account Access,Closed,2026-02-02,2026-02-22,Email,High
+CP00057,C0096,A00061,Fees,Open,2026-01-11,,Email,High
+CP00058,C0039,,Fees,Closed,2026-05-01,2026-05-04,Phone,Medium
+CP00059,C0033,A00049,Card or Transaction Dispute,In Review,2026-01-31,,Branch,Medium
+CP00060,C0044,,Service Quality,In Review,2026-08-25,,Web,High
+CP00061,C0044,A00082,Card or Transaction Dispute,In Review,2026-05-26,,Email,Medium
+CP00062,C0007,,Card or Transaction Dispute,Closed,2026-02-25,2026-03-09,Phone,High
+CP00063,C0021,A00135,Service Quality,In Review,2026-05-03,,Branch,Medium
+CP00064,C0058,A00134,Mortgage Servicing,In Review,2026-05-06,,Email,Medium
+CP00065,C0010,A00083,Mortgage Servicing,Escalated,2026-01-13,,Web,High
+CP00066,C0024,A00124,Digital Banking,Escalated,2026-07-09,,Web,Medium
+CP00067,C0008,,Card or Transaction Dispute,Escalated,2026-02-09,,Web,Low
+CP00068,C0042,,Service Quality,Closed,2026-08-03,2026-08-18,Branch,Medium
+CP00069,C0099,,Digital Banking,Open,2026-08-13,,Email,High
+CP00070,C0031,,Mortgage Servicing,Open,2026-05-06,,Phone,Low
+CP00071,C0027,A00119,Mortgage Servicing,Closed,2026-03-21,2026-04-04,Branch,Medium
+CP00072,C0093,A00065,Mortgage Servicing,Closed,2026-04-26,2026-05-01,Email,Medium
+CP00073,C0018,A00069,Digital Banking,Escalated,2026-04-09,,Branch,High
+CP00074,C0028,A00131,Mortgage Servicing,Open,2026-02-05,,Web,High
+CP00075,C0039,,Card or Transaction Dispute,Open,2026-06-19,,Branch,High
+CP00076,C0016,A00149,Fees,Escalated,2026-07-18,,Email,Low
+CP00077,C0051,,Service Quality,Open,2026-05-07,,Email,Medium
+CP00078,C0037,A00027,Card or Transaction Dispute,Escalated,2026-05-08,,Email,Low
+CP00079,C0045,,Mortgage Servicing,In Review,2026-06-20,,Web,High
+CP00080,C0044,A00082,Account Access,Closed,2026-08-21,2026-08-26,Branch,High
+CP00081,C0003,A00021,Service Quality,Closed,2026-08-20,2026-08-24,Branch,Low
+CP00082,C0049,,Service Quality,Escalated,2026-05-07,,Branch,Medium
+CP00083,C0010,A00083,Mortgage Servicing,Open,2026-01-07,,Branch,Medium
+CP00084,C0086,A00042,Mortgage Servicing,In Review,2026-08-16,,Branch,Medium
+CP00085,C0004,A00078,Mortgage Servicing,In Review,2026-05-28,,Email,High
+CP00086,C0054,,Service Quality,Escalated,2026-01-17,,Email,Medium
+CP00087,C0050,,Account Access,In Review,2026-01-10,,Branch,Medium
+CP00088,C0064,,Card or Transaction Dispute,Closed,2026-04-03,2026-04-04,Branch,Low
+CP00089,C0034,A00085,Mortgage Servicing,In Review,2026-06-24,,Email,Low
+CP00090,C0031,,Mortgage Servicing,Closed,2026-05-21,2026-06-08,Branch,Medium
+CP00091,C0045,,Digital Banking,Open,2026-01-27,,Phone,High
+CP00092,C0051,,Card or Transaction Dispute,In Review,2026-06-25,,Phone,Low
+CP00093,C0043,A00038,Digital Banking,Closed,2026-06-09,2026-06-28,Branch,High
+CP00094,C0086,A00042,Digital Banking,Closed,2026-05-17,2026-05-25,Phone,High
+CP00095,C0095,A00107,Account Access,Open,2026-02-02,,Branch,Low
+CP00096,C0058,,Service Quality,Closed,2026-05-12,2026-05-14,Email,Low
+CP00097,C0045,,Account Access,Closed,2026-03-06,2026-03-23,Email,Medium
+CP00098,C0092,A00150,Card or Transaction Dispute,Escalated,2026-06-12,,Branch,Low
+CP00099,C0073,A00096,Account Access,In Review,2026-08-01,,Phone,High
+CP00100,C0095,A00107,Card or Transaction Dispute,Escalated,2026-08-01,,Email,High
+CP00101,C0086,A00042,Service Quality,In Review,2026-03-16,,Phone,Medium
+CP00102,C0089,A00001,Service Quality,Closed,2026-03-11,2026-03-20,Phone,Low
+CP00103,C0021,A00053,Digital Banking,Open,2026-07-02,,Branch,High
+CP00104,C0069,,Service Quality,Open,2026-07-25,,Branch,Low
+CP00105,C0070,A00115,Service Quality,Closed,2026-08-08,2026-08-14,Branch,Low
+CP00106,C0051,,Mortgage Servicing,Closed,2026-07-04,2026-07-09,Email,High
+CP00107,C0089,A00001,Service Quality,Escalated,2026-02-25,,Phone,Low
+CP00108,C0072,A00146,Fees,Escalated,2026-08-27,,Phone,Medium
+CP00109,C0003,A00105,Digital Banking,In Review,2026-03-11,,Branch,Low
+CP00110,C0011,A00141,Mortgage Servicing,In Review,2026-05-04,,Web,Low
+CP00111,C0009,A00147,Card or Transaction Dispute,Escalated,2026-01-02,,Branch,Medium
+CP00112,C0018,A00069,Service Quality,In Review,2026-07-21,,Web,Medium
+CP00113,C0045,,Fees,Closed,2026-07-26,2026-08-13,Phone,High
+CP00114,C0079,A00140,Card or Transaction Dispute,Escalated,2026-06-18,,Email,High
+CP00115,C0093,A00062,Mortgage Servicing,In Review,2026-01-13,,Web,High
+CP00116,C0010,,Mortgage Servicing,Escalated,2026-03-11,,Branch,Low
+CP00117,C0066,A00010,Digital Banking,Open,2026-04-30,,Web,High
+CP00118,C0034,A00085,Service Quality,In Review,2026-07-27,,Branch,High
+CP00119,C0086,A00042,Service Quality,Open,2026-07-16,,Email,Medium
+CP00120,C0080,A00005,Digital Banking,Open,2026-01-07,,Email,High

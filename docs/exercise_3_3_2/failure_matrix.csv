@@ -1,0 +1,8 @@
+scenario,http_method,path_template,status_code,error_code,message,correlation_id,logged_operation,logged_outcome,safe_response
+missing_customer,GET,/customers/{id},404,CUSTOMER_NOT_FOUND,Customer not found,evidence-01,GET /customers/{id},client_error,yes
+missing_complaint,GET,/complaints/{id},404,COMPLAINT_NOT_FOUND,Complaint not found,evidence-02,GET /complaints/{id},client_error,yes
+invalid_input,POST,/complaints,422,VALIDATION_ERROR,Invalid request data,evidence-03,POST /complaints,client_error,yes
+duplicate_complaint,POST,/complaints,409,CONFLICT,Complaint ID already exists,evidence-04,POST /complaints,client_error,yes
+invalid_transition,PATCH,/complaints/{id}/status,409,INVALID_STATUS_TRANSITION,Status change not allowed,evidence-05,PATCH /complaints/{id}/status,client_error,yes
+unavailable_database,GET,/health/ready,503,DEPENDENCY_UNAVAILABLE,Database unavailable,evidence-06,GET /health/ready,server_error,yes
+unexpected_exception,GET,/complaints/{id},500,INTERNAL_ERROR,Internal server error,evidence-07,GET /complaints/{id},server_error,yes

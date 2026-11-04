@@ -1,0 +1,31 @@
+"complaint_id","customer_id","account_id","channel","category","complaint_text","priority","status","received_at","assigned_analyst_id"
+CMP001,CUS001,ACC001,Phone,Fee Dispute,Unexpected overdraft fee,High,OPEN,"2025-01-01 09:00:00",EMP001
+CMP002,CUS002,ACC002,Email,Service Delay,Delay in account update,Medium,IN_PROGRESS,"2025-01-05 11:15:00",EMP002
+CMP003,CUS003,ACC003,Branch,Transaction Error,Duplicate debit transaction,High,UNDER_REVIEW,"2025-01-09 14:00:00",EMP001
+CMP004,CUS004,ACC004,Web,Online Banking,Login issue,Low,OPEN,"2025-01-12 10:00:00",EMP006
+CMP005,CUS005,ACC005,Phone,Fee Dispute,Incorrect service fee,Medium,CLOSED,"2025-01-15 13:00:00",EMP007
+CMP006,CUS006,ACC006,Email,Card Issue,Card blocked unexpectedly,High,OPEN,"2025-01-18 12:00:00",EMP002
+CMP007,CUS007,ACC007,Web,Transaction Error,ATM withdrawal issue,High,IN_PROGRESS,"2025-01-20 09:30:00",EMP001
+CMP008,CUS008,ACC008,Phone,Customer Service,Poor support experience,Low,OPEN,"2025-01-22 15:00:00",EMP006
+CMP009,CUS009,ACC009,Branch,Fraud Claim,Unauthorized transfer,Critical,UNDER_REVIEW,"2025-01-24 16:30:00",EMP007
+CMP010,CUS010,ACC010,Email,Fee Dispute,Monthly fee charged incorrectly,Medium,OPEN,"2025-01-25 08:45:00",EMP002
+CMP011,CUS001,ACC001,Web,Service Delay,Complaint not updated within SLA,Medium,OPEN,"2025-02-01 09:15:00",EMP001
+CMP012,CUS001,ACC001,Phone,Fee Dispute,Unexpected service charge,High,UNDER_REVIEW,"2025-02-03 10:00:00",EMP002
+CMP013,CUS001,ACC001,Email,Customer Service,Unsatisfactory support response,Low,OPEN,"2025-02-05 14:00:00",EMP006
+CMP014,CUS002,ACC002,Web,Online Banking,Mobile app login issue,Medium,OPEN,"2025-02-06 09:30:00",EMP006
+CMP015,CUS002,ACC002,Phone,Transaction Error,Duplicate debit posted,High,IN_PROGRESS,"2025-02-08 11:15:00",EMP001
+CMP016,CUS003,ACC003,Branch,Transaction Error,ATM withdrawal discrepancy,High,UNDER_REVIEW,"2025-02-09 13:10:00",EMP001
+CMP017,CUS003,ACC003,Email,Fee Dispute,Wire fee charged incorrectly,Medium,OPEN,"2025-02-11 09:40:00",EMP002
+CMP018,CUS003,ACC003,Web,Service Delay,No response received,Low,OPEN,"2025-02-12 16:00:00",EMP006
+CMP019,CUS004,ACC004,Phone,Customer Service,Long hold times,Low,OPEN,"2025-02-13 10:45:00",EMP007
+CMP020,CUS005,ACC005,Email,Fee Dispute,Business account charge disputed,Medium,OPEN,"2025-02-14 11:00:00",EMP002
+CMP021,CUS005,ACC005,Branch,Service Delay,Delayed account update,Medium,IN_PROGRESS,"2025-02-15 15:00:00",EMP001
+CMP022,CUS006,ACC006,Web,Card Issue,Card declined during purchase,High,OPEN,"2025-02-16 09:00:00",EMP002
+CMP023,CUS006,,Phone,Customer Service,General complaint regarding service,Low,OPEN,"2025-02-17 14:30:00",EMP006
+CMP024,CUS007,ACC007,Web,Transaction Error,Transfer not reflected,High,UNDER_REVIEW,"2025-02-18 08:45:00",EMP001
+CMP025,CUS007,ACC007,Email,Online Banking,Unable to download statements,Medium,OPEN,"2025-02-19 12:00:00",EMP002
+CMP026,CUS007,ACC007,Phone,Fee Dispute,Investment fee concern,Low,OPEN,"2025-02-20 16:15:00",EMP007
+CMP027,CUS008,ACC008,Web,Customer Service,Agent disconnected call,Low,OPEN,"2025-02-21 10:00:00",EMP006
+CMP028,CUS009,ACC009,Branch,Fraud Claim,Suspicious transaction detected,Critical,UNDER_REVIEW,"2025-02-22 09:20:00",EMP007
+CMP029,CUS009,,Email,Fraud Claim,Potential identity theft concern,Critical,OPEN,"2025-02-23 11:45:00",EMP007
+CMP030,CUS010,,Web,Service Delay,No response to inquiry,Medium,OPEN,"2025-02-24 13:15:00",EMP006

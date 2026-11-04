@@ -1,0 +1,31 @@
+"history_id","complaint_id","old_status","new_status","changed_by","changed_at","comments"
+1,CMP001,,OPEN,EMP001,"2026-10-20 19:32:47",Complaint created
+2,CMP002,OPEN,IN_PROGRESS,EMP002,"2026-10-20 19:32:47",Investigation started
+3,CMP003,OPEN,UNDER_REVIEW,EMP001,"2026-10-20 19:32:47",Assigned for review
+4,CMP004,,OPEN,EMP006,"2026-10-20 19:32:47",Complaint opened
+5,CMP005,IN_PROGRESS,CLOSED,EMP007,"2026-10-20 19:32:47",Resolved
+6,CMP006,,OPEN,EMP002,"2026-10-20 19:32:47",Complaint opened
+7,CMP007,OPEN,IN_PROGRESS,EMP001,"2026-10-20 19:32:47",Analyst assigned
+8,CMP008,,OPEN,EMP006,"2026-10-20 19:32:47",Complaint created
+9,CMP009,IN_PROGRESS,UNDER_REVIEW,EMP007,"2026-10-20 19:32:47",Fraud review initiated
+10,CMP010,,OPEN,EMP002,"2026-10-20 19:32:47",Complaint registered
+11,CMP011,,OPEN,EMP001,"2026-10-23 14:37:06",Complaint created
+12,CMP012,OPEN,UNDER_REVIEW,EMP002,"2026-10-23 14:37:06",Escalated for analyst review
+13,CMP013,,OPEN,EMP006,"2026-10-23 14:37:06",Complaint registered
+14,CMP014,,OPEN,EMP006,"2026-10-23 14:37:06",Complaint received
+15,CMP015,OPEN,IN_PROGRESS,EMP001,"2026-10-23 14:37:06",Investigation started
+16,CMP016,OPEN,UNDER_REVIEW,EMP001,"2026-10-23 14:37:06",Assigned for review
+17,CMP017,,OPEN,EMP002,"2026-10-23 14:37:06",Complaint registered
+18,CMP018,,OPEN,EMP006,"2026-10-23 14:37:06",Complaint logged
+19,CMP019,,OPEN,EMP007,"2026-10-23 14:37:06",Complaint opened
+20,CMP020,,OPEN,EMP002,"2026-10-23 14:37:06",Complaint created
+21,CMP021,OPEN,IN_PROGRESS,EMP001,"2026-10-23 14:37:06",Investigation started
+22,CMP022,,OPEN,EMP002,"2026-10-23 14:37:06",Complaint received
+23,CMP023,,OPEN,EMP006,"2026-10-23 14:37:06",General complaint logged
+24,CMP024,OPEN,UNDER_REVIEW,EMP001,"2026-10-23 14:37:06",Evidence collection started
+25,CMP025,,OPEN,EMP002,"2026-10-23 14:37:06",Complaint registered
+26,CMP026,,OPEN,EMP007,"2026-10-23 14:37:06",Complaint opened
+27,CMP027,,OPEN,EMP006,"2026-10-23 14:37:06",Complaint created
+28,CMP028,IN_PROGRESS,UNDER_REVIEW,EMP007,"2026-10-23 14:37:06",Fraud investigation initiated
+29,CMP029,,OPEN,EMP007,"2026-10-23 14:37:06",Potential fraud complaint registered
+30,CMP030,,OPEN,EMP006,"2026-10-23 14:37:06",Complaint logged

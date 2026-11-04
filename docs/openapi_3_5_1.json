@@ -1,0 +1,719 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Banking Complaint API",
+    "version": "0.3.0"
+  },
+  "paths": {
+    "/health/live": {
+      "get": {
+        "tags": [
+          "health"
+        ],
+        "summary": "Live",
+        "description": "The API process is running.",
+        "operationId": "live_health_live_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Record not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Business conflict",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid request data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Dependency unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health/ready": {
+      "get": {
+        "tags": [
+          "health"
+        ],
+        "summary": "Ready",
+        "description": "The API can reach its PostgreSQL database.",
+        "operationId": "ready_health_ready_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Record not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Business conflict",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid request data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Dependency unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/customers/{id}": {
+      "get": {
+        "tags": [
+          "customers"
+        ],
+        "summary": "Get Customer",
+        "operationId": "get_customer_customers__id__get",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Customer not found"
+          },
+          "409": {
+            "description": "Business conflict",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid request data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unavailable"
+          }
+        }
+      }
+    },
+    "/customers/{id}/complaints": {
+      "get": {
+        "tags": [
+          "customers"
+        ],
+        "summary": "Get Customer Complaints",
+        "operationId": "get_customer_complaints_customers__id__complaints_get",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ComplaintResponse"
+                  },
+                  "title": "Response Get Customer Complaints Customers  Id  Complaints Get"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Customer not found"
+          },
+          "409": {
+            "description": "Business conflict",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid request data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unavailable"
+          }
+        }
+      }
+    },
+    "/complaints/{id}": {
+      "get": {
+        "tags": [
+          "complaints"
+        ],
+        "summary": "Get Complaint",
+        "operationId": "get_complaint_complaints__id__get",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComplaintResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Complaint not found"
+          },
+          "409": {
+            "description": "Business conflict",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid request data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unavailable"
+          }
+        }
+      }
+    },
+    "/complaints": {
+      "post": {
+        "tags": [
+          "complaints"
+        ],
+        "summary": "Create Complaint",
+        "operationId": "create_complaint_complaints_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateComplaintRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComplaintResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Customer not found"
+          },
+          "409": {
+            "description": "Duplicate ID or database conflict"
+          },
+          "422": {
+            "description": "Invalid input"
+          },
+          "503": {
+            "description": "Database unavailable"
+          }
+        }
+      }
+    },
+    "/complaints/{id}/status": {
+      "patch": {
+        "tags": [
+          "complaints"
+        ],
+        "summary": "Change Status",
+        "operationId": "change_status_complaints__id__status_patch",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateStatusRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComplaintResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Complaint not found"
+          },
+          "409": {
+            "description": "Blocked status change"
+          },
+          "422": {
+            "description": "Invalid input"
+          },
+          "503": {
+            "description": "Database unavailable"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ComplaintCategory": {
+        "type": "string",
+        "enum": [
+          "Fee Dispute",
+          "Service Delay",
+          "Transaction Error",
+          "Online Banking",
+          "Card Issue",
+          "Customer Service",
+          "Fraud Claim",
+          "Card or Transaction Dispute",
+          "Mortgage Servicing",
+          "Service Quality",
+          "Account Access",
+          "Fees",
+          "Digital Banking"
+        ],
+        "title": "ComplaintCategory"
+      },
+      "ComplaintPriority": {
+        "type": "string",
+        "enum": [
+          "Low",
+          "Medium",
+          "High",
+          "Critical"
+        ],
+        "title": "ComplaintPriority"
+      },
+      "ComplaintResponse": {
+        "properties": {
+          "complaint_id": {
+            "type": "string",
+            "title": "Complaint Id"
+          },
+          "customer_id": {
+            "type": "string",
+            "title": "Customer Id"
+          },
+          "account_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Account Id"
+          },
+          "channel": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Channel"
+          },
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "complaint_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Complaint Text"
+          },
+          "priority": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Priority"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "received_at": {
+            "type": "string",
+            "title": "Received At"
+          },
+          "assigned_analyst_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Assigned Analyst Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "complaint_id",
+          "customer_id",
+          "category",
+          "status",
+          "received_at"
+        ],
+        "title": "ComplaintResponse"
+      },
+      "ComplaintStatus": {
+        "type": "string",
+        "enum": [
+          "OPEN",
+          "IN_PROGRESS",
+          "UNDER_REVIEW",
+          "ESCALATED",
+          "CLOSED"
+        ],
+        "title": "ComplaintStatus"
+      },
+      "CreateComplaintRequest": {
+        "properties": {
+          "complaint_id": {
+            "type": "string",
+            "maxLength": 10,
+            "minLength": 1,
+            "title": "Complaint Id"
+          },
+          "customer_id": {
+            "type": "string",
+            "maxLength": 10,
+            "minLength": 1,
+            "title": "Customer Id"
+          },
+          "category": {
+            "$ref": "#/components/schemas/ComplaintCategory"
+          },
+          "priority": {
+            "$ref": "#/components/schemas/ComplaintPriority"
+          },
+          "created_by": {
+            "type": "string",
+            "maxLength": 10,
+            "minLength": 1,
+            "title": "Created By"
+          },
+          "account_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 10,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Account Id"
+          },
+          "complaint_text": {
+            "type": "string",
+            "maxLength": 5000,
+            "title": "Complaint Text",
+            "default": ""
+          },
+          "channel": {
+            "type": "string",
+            "maxLength": 20,
+            "minLength": 1,
+            "title": "Channel",
+            "default": "Web"
+          },
+          "assigned_analyst_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 10,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Assigned Analyst Id"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "complaint_id",
+          "customer_id",
+          "category",
+          "priority",
+          "created_by"
+        ],
+        "title": "CreateComplaintRequest"
+      },
+      "CustomerResponse": {
+        "properties": {
+          "customer_id": {
+            "type": "string",
+            "title": "Customer Id"
+          },
+          "first_name": {
+            "type": "string",
+            "title": "First Name"
+          },
+          "last_name": {
+            "type": "string",
+            "title": "Last Name"
+          },
+          "email": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Email"
+          }
+        },
+        "type": "object",
+        "required": [
+          "customer_id",
+          "first_name",
+          "last_name"
+        ],
+        "title": "CustomerResponse"
+      },
+      "ErrorResponse": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "correlation_id": {
+            "type": "string",
+            "title": "Correlation Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "correlation_id"
+        ],
+        "title": "ErrorResponse"
+      },
+      "HealthResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status"
+        ],
+        "title": "HealthResponse"
+      },
+      "UpdateStatusRequest": {
+        "properties": {
+          "status": {
+            "$ref": "#/components/schemas/ComplaintStatus"
+          },
+          "changed_by": {
+            "type": "string",
+            "maxLength": 10,
+            "minLength": 1,
+            "title": "Changed By"
+          },
+          "comments": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2000
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Comments"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "changed_by"
+        ],
+        "title": "UpdateStatusRequest"
+      }
+    }
+  }
+}

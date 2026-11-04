@@ -1,0 +1,45 @@
+AI FORWARD DEPLOYED ENGINEER
+Week 3 | Exercise 8
+Create FastAPI Integration Tests
+Time Required: 2 hours
+This exercise advances the Banking Complaint Resolution Assistant from a data foundation to a production-aware Python API.
+Scenario
+The Week 3 solution must remain aligned to the approved specification and the reviewed Week 2 data release.
+Learning Outcomes
+• Apply structured thinking before implementation.
+• Produce testable, reviewable artifacts.
+• Maintain traceability between requirements, implementation and evidence.
+Prerequisites and Inputs
+Exercise Requirements
+Complete the following steps in sequence. Do not skip a step unless the coach records an approved exception.
+Step 1 — Test environment (30 minutes)
+• Use isolated database/transaction fixture.
+• Seed minimum data.
+Required evidence: Fixture.
+Step 2 — Positive flows (35 minutes)
+• Lookup, create and valid status update.
+• Assert database state.
+Required evidence: Tests.
+Step 3 — Negative flows (35 minutes)
+• 404, 422, invalid transition and unavailable dependency.
+Required evidence: Tests.
+Step 4 — Run twice (20 minutes)
+• Confirm repeatability and order independence.
+Required evidence: Report.
+Expected Deliverables
+1. tests/integration — Integration suite.
+2. integration_test_report.txt — Results.
+3. test_setup.md — Environment guide.
+Definition of Done
+• Database isolated.
+• Contracts and persistence asserted.
+• Negative paths included.
+• Repeatable.
+Submission Method
+• Create or update the named files in the project repository.
+• Use a feature branch and create a pull request to develop.
+• PR title: [Consultant name] Create FastAPI Integration Tests (Week 3).
+• Tag the coach; do not merge until review is complete.
+Dependency Handover
+Exercise 3.5.1 reviews these tests and implementation in a pull request.
+Copyright © 2026 FDM Group. Internal training use only.

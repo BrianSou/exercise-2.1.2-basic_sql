@@ -1,0 +1,16 @@
+INTEGRITY REPORT
+
+customers: 100 loaded / 100 in CSV
+accounts: 150 loaded / 150 in CSV
+complaints: 120 loaded / 120 in CSV
+service_requests: 5 loaded / 5 in CSV
+
+Accounts with missing customers: 0
+Complaints with missing customers: 0
+Complaints with missing accounts: 0
+Complaints with wrong account owners: 0
+Requests with missing customers: 0
+Requests with missing complaints: 0
+Requests with mismatched customers: 0
+
+Result: PASS

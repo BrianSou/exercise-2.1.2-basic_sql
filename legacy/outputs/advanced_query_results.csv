@@ -1,0 +1,80 @@
+query_number,row_json,as_of_date
+1,"{""age_bucket"": ""0-7 days"", ""complaint_count"": 0}",2026-11-02
+1,"{""age_bucket"": ""8-30 days"", ""complaint_count"": 0}",2026-11-02
+1,"{""age_bucket"": ""31+ days"", ""complaint_count"": 29}",2026-11-02
+2,"{""received_date"": ""2026-10-26"", ""age_days"": 7, ""age_bucket"": ""0-7 days""}",2026-11-02
+2,"{""received_date"": ""2026-10-25"", ""age_days"": 8, ""age_bucket"": ""8-30 days""}",2026-11-02
+2,"{""received_date"": ""2026-10-03"", ""age_days"": 30, ""age_bucket"": ""8-30 days""}",2026-11-02
+2,"{""received_date"": ""2026-10-02"", ""age_days"": 31, ""age_bucket"": ""31+ days""}",2026-11-02
+3,"{""customer_id"": ""CUS001"", ""complaint_id"": ""CMP001"", ""category"": ""Fee Dispute"", ""status"": ""OPEN"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS001"", ""complaint_id"": ""CMP011"", ""category"": ""Service Delay"", ""status"": ""OPEN"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS001"", ""complaint_id"": ""CMP012"", ""category"": ""Fee Dispute"", ""status"": ""UNDER_REVIEW"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS001"", ""complaint_id"": ""CMP013"", ""category"": ""Customer Service"", ""status"": ""OPEN"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS002"", ""complaint_id"": ""CMP002"", ""category"": ""Service Delay"", ""status"": ""IN_PROGRESS"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS002"", ""complaint_id"": ""CMP014"", ""category"": ""Online Banking"", ""status"": ""OPEN"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS002"", ""complaint_id"": ""CMP015"", ""category"": ""Transaction Error"", ""status"": ""IN_PROGRESS"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS003"", ""complaint_id"": ""CMP003"", ""category"": ""Transaction Error"", ""status"": ""UNDER_REVIEW"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS003"", ""complaint_id"": ""CMP016"", ""category"": ""Transaction Error"", ""status"": ""UNDER_REVIEW"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS003"", ""complaint_id"": ""CMP017"", ""category"": ""Fee Dispute"", ""status"": ""OPEN"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS003"", ""complaint_id"": ""CMP018"", ""category"": ""Service Delay"", ""status"": ""OPEN"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS004"", ""complaint_id"": ""CMP004"", ""category"": ""Online Banking"", ""status"": ""OPEN"", ""complaint_count"": 2, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS004"", ""complaint_id"": ""CMP019"", ""category"": ""Customer Service"", ""status"": ""OPEN"", ""complaint_count"": 2, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS005"", ""complaint_id"": ""CMP005"", ""category"": ""Fee Dispute"", ""status"": ""CLOSED"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS005"", ""complaint_id"": ""CMP020"", ""category"": ""Fee Dispute"", ""status"": ""OPEN"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS005"", ""complaint_id"": ""CMP021"", ""category"": ""Service Delay"", ""status"": ""IN_PROGRESS"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS006"", ""complaint_id"": ""CMP006"", ""category"": ""Card Issue"", ""status"": ""OPEN"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS006"", ""complaint_id"": ""CMP022"", ""category"": ""Card Issue"", ""status"": ""OPEN"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS006"", ""complaint_id"": ""CMP023"", ""category"": ""Customer Service"", ""status"": ""OPEN"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS007"", ""complaint_id"": ""CMP007"", ""category"": ""Transaction Error"", ""status"": ""IN_PROGRESS"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS007"", ""complaint_id"": ""CMP024"", ""category"": ""Transaction Error"", ""status"": ""UNDER_REVIEW"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS007"", ""complaint_id"": ""CMP025"", ""category"": ""Online Banking"", ""status"": ""OPEN"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS007"", ""complaint_id"": ""CMP026"", ""category"": ""Fee Dispute"", ""status"": ""OPEN"", ""complaint_count"": 4, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS008"", ""complaint_id"": ""CMP008"", ""category"": ""Customer Service"", ""status"": ""OPEN"", ""complaint_count"": 2, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS008"", ""complaint_id"": ""CMP027"", ""category"": ""Customer Service"", ""status"": ""OPEN"", ""complaint_count"": 2, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS009"", ""complaint_id"": ""CMP009"", ""category"": ""Fraud Claim"", ""status"": ""UNDER_REVIEW"", ""complaint_count"": 3, ""was_escalated"": 1}",2026-11-02
+3,"{""customer_id"": ""CUS009"", ""complaint_id"": ""CMP028"", ""category"": ""Fraud Claim"", ""status"": ""UNDER_REVIEW"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS009"", ""complaint_id"": ""CMP029"", ""category"": ""Fraud Claim"", ""status"": ""OPEN"", ""complaint_count"": 3, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS010"", ""complaint_id"": ""CMP010"", ""category"": ""Fee Dispute"", ""status"": ""OPEN"", ""complaint_count"": 2, ""was_escalated"": 0}",2026-11-02
+3,"{""customer_id"": ""CUS010"", ""complaint_id"": ""CMP030"", ""category"": ""Service Delay"", ""status"": ""OPEN"", ""complaint_count"": 2, ""was_escalated"": 0}",2026-11-02
+4,"{""complaint_id"": ""CMP001"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 1}",2026-11-02
+4,"{""complaint_id"": ""CMP002"", ""current_status"": ""IN_PROGRESS"", ""latest_history_status"": ""IN_PROGRESS"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 2}",2026-11-02
+4,"{""complaint_id"": ""CMP003"", ""current_status"": ""UNDER_REVIEW"", ""latest_history_status"": ""UNDER_REVIEW"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 3}",2026-11-02
+4,"{""complaint_id"": ""CMP004"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 4}",2026-11-02
+4,"{""complaint_id"": ""CMP005"", ""current_status"": ""CLOSED"", ""latest_history_status"": ""CLOSED"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 5}",2026-11-02
+4,"{""complaint_id"": ""CMP006"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 6}",2026-11-02
+4,"{""complaint_id"": ""CMP007"", ""current_status"": ""IN_PROGRESS"", ""latest_history_status"": ""IN_PROGRESS"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 7}",2026-11-02
+4,"{""complaint_id"": ""CMP008"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 8}",2026-11-02
+4,"{""complaint_id"": ""CMP009"", ""current_status"": ""UNDER_REVIEW"", ""latest_history_status"": ""UNDER_REVIEW"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 9}",2026-11-02
+4,"{""complaint_id"": ""CMP010"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-20 19:32:47"", ""history_id"": 10}",2026-11-02
+4,"{""complaint_id"": ""CMP011"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 11}",2026-11-02
+4,"{""complaint_id"": ""CMP012"", ""current_status"": ""UNDER_REVIEW"", ""latest_history_status"": ""UNDER_REVIEW"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 12}",2026-11-02
+4,"{""complaint_id"": ""CMP013"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 13}",2026-11-02
+4,"{""complaint_id"": ""CMP014"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 14}",2026-11-02
+4,"{""complaint_id"": ""CMP015"", ""current_status"": ""IN_PROGRESS"", ""latest_history_status"": ""IN_PROGRESS"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 15}",2026-11-02
+4,"{""complaint_id"": ""CMP016"", ""current_status"": ""UNDER_REVIEW"", ""latest_history_status"": ""UNDER_REVIEW"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 16}",2026-11-02
+4,"{""complaint_id"": ""CMP017"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 17}",2026-11-02
+4,"{""complaint_id"": ""CMP018"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 18}",2026-11-02
+4,"{""complaint_id"": ""CMP019"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 19}",2026-11-02
+4,"{""complaint_id"": ""CMP020"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 20}",2026-11-02
+4,"{""complaint_id"": ""CMP021"", ""current_status"": ""IN_PROGRESS"", ""latest_history_status"": ""IN_PROGRESS"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 21}",2026-11-02
+4,"{""complaint_id"": ""CMP022"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 22}",2026-11-02
+4,"{""complaint_id"": ""CMP023"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 23}",2026-11-02
+4,"{""complaint_id"": ""CMP024"", ""current_status"": ""UNDER_REVIEW"", ""latest_history_status"": ""UNDER_REVIEW"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 24}",2026-11-02
+4,"{""complaint_id"": ""CMP025"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 25}",2026-11-02
+4,"{""complaint_id"": ""CMP026"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 26}",2026-11-02
+4,"{""complaint_id"": ""CMP027"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 27}",2026-11-02
+4,"{""complaint_id"": ""CMP028"", ""current_status"": ""UNDER_REVIEW"", ""latest_history_status"": ""UNDER_REVIEW"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 28}",2026-11-02
+4,"{""complaint_id"": ""CMP029"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 29}",2026-11-02
+4,"{""complaint_id"": ""CMP030"", ""current_status"": ""OPEN"", ""latest_history_status"": ""OPEN"", ""status_changed_at"": ""2026-10-23 14:37:06"", ""history_id"": 30}",2026-11-02
+5,"{""customer_id"": ""CUS001"", ""complaint_count"": 4, ""complaint_rank"": 1, ""display_order"": 1}",2026-11-02
+5,"{""customer_id"": ""CUS003"", ""complaint_count"": 4, ""complaint_rank"": 1, ""display_order"": 2}",2026-11-02
+5,"{""customer_id"": ""CUS007"", ""complaint_count"": 4, ""complaint_rank"": 1, ""display_order"": 3}",2026-11-02
+5,"{""customer_id"": ""CUS002"", ""complaint_count"": 3, ""complaint_rank"": 4, ""display_order"": 4}",2026-11-02
+5,"{""customer_id"": ""CUS005"", ""complaint_count"": 3, ""complaint_rank"": 4, ""display_order"": 5}",2026-11-02
+5,"{""customer_id"": ""CUS006"", ""complaint_count"": 3, ""complaint_rank"": 4, ""display_order"": 6}",2026-11-02
+5,"{""customer_id"": ""CUS009"", ""complaint_count"": 3, ""complaint_rank"": 4, ""display_order"": 7}",2026-11-02
+5,"{""customer_id"": ""CUS004"", ""complaint_count"": 2, ""complaint_rank"": 8, ""display_order"": 8}",2026-11-02
+5,"{""customer_id"": ""CUS008"", ""complaint_count"": 2, ""complaint_rank"": 8, ""display_order"": 9}",2026-11-02
+5,"{""customer_id"": ""CUS010"", ""complaint_count"": 2, ""complaint_rank"": 8, ""display_order"": 10}",2026-11-02
+6,"{""complaint_id"": ""CMP009"", ""decision"": ""ESCALATED""}",2026-11-02
+7,"{""total_complaints"": 30, ""unresolved_complaints"": 29, ""distinct_customers"": 10}",2026-11-02

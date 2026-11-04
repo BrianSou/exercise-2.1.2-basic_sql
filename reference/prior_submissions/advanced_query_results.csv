@@ -1,0 +1,35 @@
+query_name,key,secondary_key,metric_value,label,rank,display_order,as_of_date,notes
+age_buckets,0-7 days,,1,unresolved complaints,,,2026-10-23,
+age_buckets,8-30 days,,0,unresolved complaints,,,2026-10-23,
+age_buckets,31+ days,,9,unresolved complaints,,,2026-10-23,
+boundary_test,2026-10-16,,7,0-7 days,,,2026-10-23,Exact inclusive boundary date test
+boundary_test,2026-10-15,,8,8-30 days,,,2026-10-23,Exact inclusive boundary date test
+boundary_test,2026-09-23,,30,8-30 days,,,2026-10-23,Exact inclusive boundary date test
+boundary_test,2026-09-22,,31,31+ days,,,2026-10-23,Exact inclusive boundary date test
+repeat_complainants,CUS001,CMP001,2,OPEN,,,2026-10-23,category=Fee Dispute; was_escalated=0
+repeat_complainants,CUS001,CMP011,2,OPEN,,,2026-10-23,category=Service Delay; was_escalated=0
+latest_status,CMP001,,1,OPEN,,,2026-10-23,current_status=OPEN; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP002,,2,IN_PROGRESS,,,2026-10-23,current_status=IN_PROGRESS; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP003,,3,UNDER_REVIEW,,,2026-10-23,current_status=UNDER_REVIEW; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP004,,4,OPEN,,,2026-10-23,current_status=OPEN; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP005,,5,CLOSED,,,2026-10-23,current_status=CLOSED; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP006,,6,OPEN,,,2026-10-23,current_status=OPEN; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP007,,7,IN_PROGRESS,,,2026-10-23,current_status=IN_PROGRESS; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP008,,8,OPEN,,,2026-10-23,current_status=OPEN; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP009,,9,UNDER_REVIEW,,,2026-10-23,current_status=UNDER_REVIEW; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP010,,10,OPEN,,,2026-10-23,current_status=OPEN; status_changed_at=2026-10-20 19:32:47
+latest_status,CMP011,,,(no history),,,2026-10-23,current_status=OPEN; status_changed_at=(missing)
+customer_ranking,CUS001,,2,complaints,1,1,2026-10-23,
+customer_ranking,CUS002,,1,complaints,2,2,2026-10-23,
+customer_ranking,CUS003,,1,complaints,2,3,2026-10-23,
+customer_ranking,CUS004,,1,complaints,2,4,2026-10-23,
+customer_ranking,CUS005,,1,complaints,2,5,2026-10-23,
+customer_ranking,CUS006,,1,complaints,2,6,2026-10-23,
+customer_ranking,CUS007,,1,complaints,2,7,2026-10-23,
+customer_ranking,CUS008,,1,complaints,2,8,2026-10-23,
+customer_ranking,CUS009,,1,complaints,2,9,2026-10-23,
+customer_ranking,CUS010,,1,complaints,2,10,2026-10-23,
+escalation_validation,CMP009,,,ESCALATED,,,2026-10-23,Actual review decision; not necessarily a repeat complainant
+overall_validation,total_complaints,,11,complaints,,,2026-10-23,
+overall_validation,unresolved_complaints,,10,unresolved complaints,,,2026-10-23,
+overall_validation,distinct_customers,,10,distinct customer IDs,,,2026-10-23,

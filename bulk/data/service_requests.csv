@@ -1,0 +1,6 @@
+request_id,complaint_id,customer_id,request_type,status,created_date
+SR0001,CP00001,C0015,Customer Follow-up,Open,2026-04-29
+SR0002,CP00002,C0081,Document Review,In Review,2026-04-08
+SR0003,CP00003,C0025,Status Check,Closed,2026-02-22
+SR0004,CP00004,C0082,Customer Follow-up,Closed,2026-03-27
+SR0005,CP00005,C0087,Document Review,Open,2026-06-12

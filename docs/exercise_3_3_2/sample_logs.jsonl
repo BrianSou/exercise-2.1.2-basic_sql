@@ -1,0 +1,8 @@
+{"timestamp": "2026-11-03T13:34:12.396014+00:00", "level": "WARNING", "correlation_id": "evidence-01", "operation": "GET /customers/{id}", "outcome": "client_error", "duration_ms": 10.73, "status_code": 404}
+{"timestamp": "2026-11-03T13:34:12.402648+00:00", "level": "WARNING", "correlation_id": "evidence-02", "operation": "GET /complaints/{id}", "outcome": "client_error", "duration_ms": 4.54, "status_code": 404}
+{"timestamp": "2026-11-03T13:34:12.405601+00:00", "level": "WARNING", "correlation_id": "evidence-03", "operation": "POST /complaints", "outcome": "client_error", "duration_ms": 1.59, "status_code": 422}
+{"timestamp": "2026-11-03T13:34:12.418898+00:00", "level": "INFO", "correlation_id": "evidence-created", "operation": "POST /complaints", "outcome": "success", "duration_ms": 12.07, "status_code": 201}
+{"timestamp": "2026-11-03T13:34:12.423927+00:00", "level": "WARNING", "correlation_id": "evidence-04", "operation": "POST /complaints", "outcome": "client_error", "duration_ms": 3.57, "status_code": 409}
+{"timestamp": "2026-11-03T13:34:12.428243+00:00", "level": "WARNING", "correlation_id": "evidence-05", "operation": "PATCH /complaints/{id}/status", "outcome": "client_error", "duration_ms": 2.91, "status_code": 409}
+{"timestamp": "2026-11-03T13:34:12.430854+00:00", "level": "ERROR", "correlation_id": "evidence-06", "operation": "GET /health/ready", "outcome": "server_error", "duration_ms": 1.04, "status_code": 503}
+{"timestamp": "2026-11-03T13:34:12.432951+00:00", "level": "ERROR", "correlation_id": "evidence-07", "operation": "GET /complaints/{id}", "outcome": "server_error", "duration_ms": 0.97, "status_code": 500}

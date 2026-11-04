@@ -1,0 +1,6 @@
+id,question,classification,reason,missing_context
+1,How many open complaints does customer C0001 have?,SQL,Count matching complaint records.,Check which database is being asked about and what counts as open.
+2,What is the escalation rule for a disputed card transaction?,RAG,The rule comes from a policy document.,Current approved policy version and applicable jurisdiction.
+3,Show customer history and explain the fee policy.,Hybrid,Use SQL for the customer history and policy retrieval for the rule.,"Customer permission, correct record ID, and current policy."
+4,What is average closure time by category?,SQL,Calculate from opened and closed dates for closed complaints.,"Use the 120-row dataset, since the original complaint table has no trusted closure date."
+5,Should this high-risk case be approved automatically?,Human decision,Approval for a high-risk case needs human review.,"Approved review policy, reviewer and evidence."
